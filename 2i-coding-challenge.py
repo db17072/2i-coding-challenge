@@ -22,12 +22,6 @@ def multiples(n,max):
         yield num
         num+=n
 
-# prints generator outputs
-def printMultiples(multGen):
-    for i in multGen:
-        print(i, end=", ")
-    print("\n")
-
 # returns generator outputs as list
 def main(n,max):
     lstMultN_max = list(multiples(n,max))
